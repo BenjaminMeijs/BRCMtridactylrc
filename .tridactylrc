@@ -95,7 +95,7 @@ unbind --mode=ex <C-c>
 
 " | SEARCH URLS
 set searchengine duckduckgo
-bindurl hackage.haskell.org --mode=normal s null
+bindurl hackage.haskell.org --mode=normal s
 set searchurls.amazon https://www.amazon.fr/s/ref=nb_sb_noss?field-keywords=%s
 set searchurls.crates https://crates.io/search?q=%s
 set searchurls.ddg https://duckduckgo.com/html?q=%s
